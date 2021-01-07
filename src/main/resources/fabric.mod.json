@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "shezthings",
+  "version": "${version}",
+
+  "name": "Shez Things",
+  "description": "Adds things by Shez",
+  "authors": [
+    "Shez"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/shezthings/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.shez.shezthings.ShezThings"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x",
+    "prugutils": "0.1.0"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

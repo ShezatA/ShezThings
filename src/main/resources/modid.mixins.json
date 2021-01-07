@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.shez.shezthings.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ShezMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

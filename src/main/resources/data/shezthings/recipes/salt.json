@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+        "tag": "minecraft:sand"
+    },
+    {
+        "tag": "minecraft:sand"
+    },
+    {
+        "tag": "minecraft:sand"
+    },
+    {
+        "tag": "minecraft:sand"
+    },
+    {
+        "item": "shezthings:filter"
+    }
+  ],
+  "result":
+  {
+      "item": "shezthings:salt",
+      "count": 8
+  }
+}

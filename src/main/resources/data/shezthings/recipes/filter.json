@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WRW",
+    "W W",
+    "WRW"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "shezthings:filter",
+    "count": 1
+  }
+}
